@@ -112,6 +112,16 @@ body{
 	pointer-events: none;
 }
 
+.logo{
+  width: 120px;
+  border-radius: 50%;
+}
+
+.title{
+  margin-top: 20px;
+  height: 100%;
+}
+
 .main{
 	position: absolute;
 	width: calc(100% - 300px);
@@ -417,6 +427,31 @@ body{
 		color: var(--white);
 	}
 }
+
+.data-table{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	padding: 1.5rem;
+	flex-direction: column;
+}
+.data{
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	display: flex;
+}
+
+.table-header{
+	text-align: center;
+	font-weight: 700;
+}
+
+.t-heading,.data-row{
+	padding: 1rem 3rem;
+}
+
 footer {
     background-color: #287bff;
     color: rgb(255, 244, 228);
