@@ -29,6 +29,7 @@ body
 {
     margin-top: 10%;
     align-items: center;
+    text-align: center;
     justify-content: center;
     color: #287bff;
 }
@@ -69,6 +70,7 @@ footer
     font-size: 30px;
     font-family: Love;
     background-color: #287bff;
+    margin-bottom: 0%;
 }
 .why
 {
@@ -87,8 +89,11 @@ footer
     text-align: center;
     margin-top: 5%;
 }
+
 .yoyo
 {
+    color: #172233;
+    margin-top: 10%;
     text-align: center;
-    background-color: #287bff;
+    margin-bottom: 10%;
 }
