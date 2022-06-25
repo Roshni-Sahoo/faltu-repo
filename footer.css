@@ -1,0 +1,89 @@
+nav
+{
+    height: 60px;
+    background-color:#287bff;
+}
+.navbar
+{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 15;
+}
+.nav-item
+{
+  font-size: 1.25rem;
+  font-family: cursive;
+}
+.logo
+{
+    width: 100px;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 243, 237) !important;
+}
+.container
+{
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    color: #287bff;
+}
+@font-face {
+    font-family: Love;
+    src: url(Love.ttf);
+  }
+h1
+{
+    font-family: Love;
+}
+.btn
+{
+    border-radius: 20px;
+    border: #287bff;
+    width: 100%;
+    padding: 3%;
+    background-color: #287bff !important;
+}
+.form-control
+{
+  border-color: #287bff;
+  border-radius: 10px;
+  background-color:#abbfd8;
+}
+@media( max-width :620px)
+{ 
+    .container 
+    {
+        margin-top: 20%;
+    }
+}
+footer
+{
+    width: 100%;
+    margin-top: 10%;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Love;
+    background-color: #287bff;
+}
+.why
+{
+    color: rgb(236, 236, 236);
+    text-decoration: none !important;
+    text-align: center;
+    font-size: 40px;
+}
+.contact
+{
+    color: rgb(255, 251, 245);
+    width: 100px;
+}
+.contain
+{
+    text-align: center;
+    margin-top: 5%;
+}
